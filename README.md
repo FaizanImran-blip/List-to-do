@@ -21,12 +21,3 @@ It allows users to **add, view, remove** tasks and also **save tasks** to a file
   [Get Dart here](https://dart.dev/get-dart)
 
 ---
-
-## 🚀 How to Run
-
-1. Clone or download this project.
-2. Open terminal in the folder where Dart file is saved.
-3. Run the file using:
-
-```bash
-dart run your_file_name.dart
