@@ -1,16 +1,16 @@
 import 'dart:io';
 
-class Lis {
+class Lise {
   int a;
   String name;
-  Lis(this.a, this.name);
+  Lise(this.a, this.name);
 
   void save() {
     File f = File("path.txt");
     f.writeAsStringSync("[$a] $name\n", mode: FileMode.append);
   }
 
-  void show() {
+  void shown() {
     File r = File("path.txt");
     String l = r.readAsStringSync();
     print("$l");
@@ -18,11 +18,11 @@ class Lis {
 }
 
 class M {
-  List<Lis> f = [];
+  List<Lise> f = [];
 
   void add(String t) {
     int o = f.length;
-    f.add(Lis(o, t));
+    f.add(Lise(o, t));
     f.last.save();
     print("Task added: $t");
   }
@@ -82,7 +82,7 @@ void main() {
         e.remove(t);
         break;
       case 4:
-        Lis(0, "").show();
+        Lise(0, "").shown();
         break;
       case 5:
         print("Exiting...");
