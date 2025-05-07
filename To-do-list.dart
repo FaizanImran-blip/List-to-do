@@ -1,9 +1,9 @@
 import 'dart:io';
 
-class Lise {
+class Lis {
   int a;
   String name;
-  Lise(this.a, this.name);
+  Lis(this.a, this.name);
 
   void save() {
     File f = File("path.txt");
@@ -18,11 +18,11 @@ class Lise {
 }
 
 class M {
-  List<Lise> f = [];
+  List<Lis> f = [];
 
   void add(String t) {
     int o = f.length;
-    f.add(Lise(o, t));
+    f.add(Lis(o, t));
     f.last.save();
     print("Task added: $t");
   }
@@ -82,7 +82,7 @@ void main() {
         e.remove(t);
         break;
       case 4:
-        Lise(0, "").shown();
+        Lis(0, "").shown();
         break;
       case 5:
         print("Exiting...");
