@@ -3,7 +3,7 @@
 This is a simple **Command Line To-Do List app** built with Dart.  
 It allows users to **add, view, remove** tasks and also **save tasks** to a file (`path.txt`) for basic persistence
 
-----
+
 ## 📦 Features
 
 - ➕ Add new tasks
